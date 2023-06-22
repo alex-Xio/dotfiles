@@ -25,7 +25,8 @@ require("lazy").setup({
     {
         'nvim-telescope/telescope.nvim',
         tag = '0.1.1',
-        dependencies = { 'nvim-lua/plenary.nvim' }
+        dependencies = { 'nvim-lua/plenary.nvim' },
+        lazy = false
     },
     "mbbill/undotree",
     {
@@ -61,5 +62,12 @@ require("lazy").setup({
         config = function()
             require("startup").setup({ theme = "hideous" })
         end
+    },
+    {
+        "nvim-lualine/lualine.nvim",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+    },
+    {
+        "jiangmiao/auto-pairs",
     },
 })
