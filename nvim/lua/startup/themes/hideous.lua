@@ -100,6 +100,6 @@ local settings = {
         background = "#1f2227",
         folded_section = "#7aa2f7",
     },
-    parts = { "header", "header_2", "body", "footer" },
+    parts = { "header", "header_2", "body", } --"footer" },
 }
 return settings
