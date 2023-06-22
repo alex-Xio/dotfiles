@@ -31,7 +31,7 @@ local settings = {
         title = "Header",
         margin = 5,
         content = asciiArt,
-        highlight = "Statement",
+        highlight = "Error",
         default_color = "",
         oldfiles_amount = 0,
     },
@@ -43,7 +43,7 @@ local settings = {
         title = "Quote",
         margin = 5,
         content = require("startup.functions").quote(),
-        highlight = "Constant",
+        highlight = "Boolean",
         default_color = "",
         oldfiles_amount = 0,
     },
@@ -98,7 +98,7 @@ local settings = {
     },
     colors = {
         background = "#1f2227",
-        folded_section = "#56b6c2",
+        folded_section = "#7aa2f7",
     },
     parts = { "header", "header_2", "body", "footer" },
 }
