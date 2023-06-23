@@ -2,8 +2,10 @@
 
 ## Showcase
 
-<p align="center"><img src="https://raw.githubusercontent.com/3C4A5C514A/dotfiles/main/.github/imgs/greeting.png"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/3C4A5C514A/dotfiles/main/.github/imgs/code.png"></p>
+<p align="center"><img src="./imgs/greeting.png"></p>
+<p align="center"><img src="./imgs/code.png"></p>
+
+
 
 ## Available Configs:
 * **[Kitty](https://github.com/kovidgoyal/kitty)**
