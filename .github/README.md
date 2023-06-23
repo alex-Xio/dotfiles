@@ -6,8 +6,7 @@
 <p align="center"><img src="./imgs/code.png"></p>
 
 
-
-## Available Configs:
+## Apps
 * **[Kitty](https://github.com/kovidgoyal/kitty)**
 * **[Neovim](https://github.com/neovim/neovim)**
 
