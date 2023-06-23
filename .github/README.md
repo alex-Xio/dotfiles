@@ -36,3 +36,4 @@
 ### Credits
 * [startup.nvim](https://github.com/startup-nvim/startup.nvim) evil theme
 * [NvChad](https://github.com/NvChad/NvChad) as an ispiration
+* [Primeagen](https://github.com/ThePrimeagen) for a [video](https://www.youtube.com/watch?v=w7i4amO_zaE)
