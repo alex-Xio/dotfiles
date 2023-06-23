@@ -34,4 +34,4 @@
    * [auto-pairs](https://github.com/jiangmiao/auto-pairs)
 ### Credits
 * [startup.nvim](https://github.com/startup-nvim/startup.nvim) evil theme
-* [NvChad](https://github.com/NvChad/NvChad) like an ispiration
+* [NvChad](https://github.com/NvChad/NvChad) as an ispiration
