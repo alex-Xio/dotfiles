@@ -50,13 +50,6 @@ require("lazy").setup({
         }
     },
     {
-        'nvim-tree/nvim-tree.lua',
-        lazy = true,
-        dependencies = {
-            'nvim-tree/nvim-web-devicons',
-        },
-    },
-    {
         "startup-nvim/startup.nvim",
         dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
         config = function()
@@ -70,4 +63,14 @@ require("lazy").setup({
     {
         "jiangmiao/auto-pairs",
     },
+    {
+        "ThePrimeagen/harpoon",
+        dependencies = { "nvim-lua/plenary.nvim" },
+    },
+    {
+        'andweeb/presence.nvim',
+    },
+    {
+        'prichrd/netrw.nvim',
+    }
 })
