@@ -29,7 +29,6 @@
    * [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
    * [undotree](https://github.com/mbbill/undotree)
    * [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)
-   * [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
    * [startup.nvim](https://github.com/startup-nvim/startup.nvim)
    * [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
    * [auto-pairs](https://github.com/jiangmiao/auto-pairs)
