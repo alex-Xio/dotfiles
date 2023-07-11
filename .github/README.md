@@ -27,6 +27,7 @@
    * [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
    * [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
    * [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+   * [netrw.nvim](https://github.com/prichrd/netrw.nvim)
    * [undotree](https://github.com/mbbill/undotree)
    * [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)
    * [startup.nvim](https://github.com/startup-nvim/startup.nvim)
