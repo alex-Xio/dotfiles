@@ -63,14 +63,19 @@ require("lazy").setup({
     {
         "jiangmiao/auto-pairs",
     },
-    {
-        "ThePrimeagen/harpoon",
-        dependencies = { "nvim-lua/plenary.nvim" },
-    },
+    --    {
+    --        "ThePrimeagen/harpoon",
+    --        dependencies = { "nvim-lua/plenary.nvim" },
+    --    },
     {
         'andweeb/presence.nvim',
     },
     {
         'prichrd/netrw.nvim',
-    }
+    },
+    {
+        'akinsho/bufferline.nvim',
+        version = "*",
+        dependencies = 'nvim-tree/nvim-web-devicons',
+    },
 })

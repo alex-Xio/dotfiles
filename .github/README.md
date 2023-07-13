@@ -27,12 +27,13 @@
    * [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
    * [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
    * [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+   * [netrw.nvim](https://github.com/prichrd/netrw.nvim)
    * [undotree](https://github.com/mbbill/undotree)
    * [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)
-   * [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
    * [startup.nvim](https://github.com/startup-nvim/startup.nvim)
    * [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
    * [auto-pairs](https://github.com/jiangmiao/auto-pairs)
+   * [bufferline](https://github.com/akinsho/bufferline.nvim)
 ### Credits
 * [startup.nvim](https://github.com/startup-nvim/startup.nvim) evil theme
 * [NvChad](https://github.com/NvChad/NvChad) as an ispiration
