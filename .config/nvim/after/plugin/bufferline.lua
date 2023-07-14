@@ -90,7 +90,7 @@ bufferline.setup {
         --            -- [focused and unfocused]. eg: { '|', '|' }
         separator_style = "thick", -- | "slope" | "thick" | "thin" | { 'any', 'any' },
         --            enforce_regular_tabs = false | true,
-        --            always_show_bufferline = true | false,
+        --always_show_bufferline = false,
         --            hover = {
         --                enabled = true,
         --                delay = 200,
@@ -102,6 +102,5 @@ bufferline.setup {
         --            end
     }
 }
-
 vim.keymap.set("n", "<leader>n", vim.cmd.BufferLinePick)
 vim.keymap.set("n", "<leader>b", vim.cmd.BufferLinePickClose)

@@ -8,6 +8,7 @@ lsp.ensure_installed({
     'html',
     'cssls',
     'lua_ls',
+    'vls',
 })
 
 lsp.on_attach(function(client, bufnr)
@@ -22,6 +23,7 @@ lsp.format_on_save({
     servers = {
         ['lua_ls'] = { 'lua' },
         ['tsserver'] = { 'javascript' },
+        ['vls'] = { 'vue' },
     }
 })
 
