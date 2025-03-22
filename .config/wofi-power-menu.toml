@@ -1,0 +1,28 @@
+[wofi]
+  extra_args = "--allow-markup --columns=1 --hide-scroll"
+
+# [menu.shutdown]
+  # title = "Apagar"
+#
+# [menu.reboot]
+#   title = "Reiniciar"
+#
+# [menu.suspend]
+#   title = "Suspender"
+#   enabled = "false"
+#
+# [menu.hibernate]
+#   title = "Hibernar"
+#
+# [menu.logout]
+#   title = "Salir"
+    cmd = "hyprctl dispatch exit"
+
+[menu.lock-screen]
+    # title = "Bloquear pantalla"
+    cmd = "hyprlock"
+
+# [menu.ls]
+#   title = "Listar directorio"
+#   cmd = "ls -l --color"
+#   icon = "L"

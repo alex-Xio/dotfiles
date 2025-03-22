@@ -1,0 +1,26 @@
+# Ignore everything
+/*
+
+
+
+# But not these files...
+!.gitignore
+!.zshrc
+!.bashrc
+!video.sh
+!audio.sh
+!.config/
+!.config/*
+
+/.config/*
+
+!/Pictures/Wallpapers/
+!/.config/hypr/
+!/.config/hypr/*
+!/.config/kitty/
+!/.config/nvim/
+!/.config/swayosd/
+!/.config/waybar/
+!/.config/zathura/
+!/.config/wofi-power-menu.toml
+
