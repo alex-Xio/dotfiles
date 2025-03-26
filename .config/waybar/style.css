@@ -6,7 +6,7 @@
 
 window#waybar {
     /*background-color: rgba(19, 19, 19, 0.5);*/
-    background-color: rgba(60,56,54, 0.6);
+    background-color: rgba(60,56,54, 0.5);
     /*border-bottom: 3px solid rgba(100, 114, 125, 0.5);*/
     color: rgba(251,241,199,1);
     /*color: #ffffff;*/
@@ -60,7 +60,7 @@ button {
 }
 #workspaces button {
     padding: 0 12px 0 9px;
-    background-color: rgba(49,49,49,0.5);
+    background-color: rgba(49,49,49,0.2);
     color: rgba(251,241,199,1);
     /*color: #b8b8b8;*/
     border:2px solid rgba(251,241,199,1);
@@ -87,6 +87,7 @@ button {
 #workspaces button.active {
     color: #fabd2f;
     border-color: #fabd2f;
+    background-color: rgba(49,49,49,0.4);
     /*color: rgba(251,241,199,1);*/
     /*border-color:rgba(251,241,199,1);*/
     /*border-bottom: 2px solid red;*/
