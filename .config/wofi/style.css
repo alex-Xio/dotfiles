@@ -1,0 +1,59 @@
+window {
+margin: 0px;
+/*border: 2px solid #928374;*/
+/*background-color: rgba(40,40,40,0.1);*/
+background-color: rgba(40,40,40,0);
+font-family: Hack Nerd Font;
+font-size:18px;
+}
+
+#input {
+margin: 5px;
+border: none;
+color: #ebdbb2;
+background-color: #1d2021;
+}
+
+#input:focus {
+box-shadow: none;
+/*border: 1px solid #b8bb26;*/
+border: 1px solid #fabd2f;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+/*background-color: rgba(60,56,54,0.7);*/
+background-color: transparent;
+/*background-color: #282828;*/
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: rgba(60,56,54,0.6);
+border: 2px solid #fbf1c7;
+border-radius:10px;
+/*background-color: #282828;*/
+}
+
+#scroll {
+margin: 0px;
+border: none;
+}
+
+#text {
+margin: 5px;
+border: none;
+color: #ebdbb2;
+}
+
+#entry:selected {
+background-color: #1d2021;
+/*color:#b8bb26;*/
+color:#fabd2f;
+}
+#entry:selected #text{
+/*color:#b8bb26;*/
+color:#fabd2f;
+}
