@@ -135,3 +135,4 @@ export PATH="/home/alexander/.jdks/corretto-21.0.6/bin:$PATH"
 bindkey -v
 eval "$(zoxide init zsh)"
 
+#curl -s wttr.in/Moon | head -n -2

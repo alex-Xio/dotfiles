@@ -27,14 +27,14 @@ window#waybar.solo {
 }
 */
 
-window#waybar.termite {
-    background-color: #3F3F3F;
-}
-
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
-}
+/* window#waybar.firefox { */
+/*     background-color: #3F3F3F; */
+/* } */
+/**/
+/* window#waybar.chromium { */
+/*     background-color: #000000; */
+/*     border: none; */
+/* } */
 
 button {
     /* Use box-shadow instead of border so the text isn't offset */
@@ -100,6 +100,7 @@ button {
 
 #clock,
 #battery,
+#cava,
 #cpu,
 #memory,
 #disk,
@@ -133,6 +134,19 @@ button {
 /* If workspaces is the rightmost module, omit right margin */
 .modules-right > widget:last-child > #workspaces {
     margin-right: 0;
+}
+
+#cava {
+  /* background: rgba(40, 40, 40, 0.76); */
+  /* border-radius: 4px 0px 0px 4px; */
+  /* border-width: 2px; */
+  /* border-style: solid; */
+  /* border-color: #ebdbb2; */
+  /* border-right: 0px; */
+  /* margin-left: 4px; */
+  /* color: #ebdbb2; */
+    padding: 0;
+    margin: 0;
 }
 
 #clock {
