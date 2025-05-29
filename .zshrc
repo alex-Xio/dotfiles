@@ -136,3 +136,6 @@ bindkey -v
 eval "$(zoxide init zsh)"
 
 #curl -s wttr.in/Moon | head -n -2
+
+# Created by `pipx` on 2025-05-28 17:49:56
+export PATH="$PATH:/home/alexander/.local/bin"
