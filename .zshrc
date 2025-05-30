@@ -132,6 +132,7 @@ export XDG_CONFIG_HOME="/home/alexander/.config"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
 export PATH="/home/alexander/.jdks/corretto-21.0.6/bin:$PATH"
+export PATH="/usr/games/bin:$PATH"
 bindkey -v
 eval "$(zoxide init zsh)"
 

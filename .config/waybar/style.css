@@ -65,7 +65,7 @@ button {
     /*color: #b8b8b8;*/
     background-color: rgba(38,38,38,1);
     border: 2px solid rgba(235,219,178,1);
-    border-radius:10px;
+    /* border-radius:10px; */
     margin: 0 3px;
 }
 
@@ -93,6 +93,7 @@ button {
     /*border-color:rgba(235,219,178,1);*/
     /*border-bottom: 2px solid red;*/
 }
+
 
 #mode {
     background-color: #64727D;
@@ -127,6 +128,7 @@ button {
     margin: 0 4px;
 }
 
+
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
@@ -151,7 +153,9 @@ button {
 }
 
 #clock {
-    /*background-color: #64727D;*/
+    background-color: rgba(235,219,178,1);
+    color: rgba(60,56,54, 1);
+    font-weight:bolder;
 }
 
 #battery {
@@ -173,8 +177,7 @@ button {
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
-    color: #ffffff;
+    color: #eb4d4b;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: steps(12);
@@ -227,7 +230,7 @@ label:focus {
 }
 
 #network.disconnected {
-    color: #f53c3c;
+    color: #eb4d4b;
     /*color: #ff0000;*/
 }
 

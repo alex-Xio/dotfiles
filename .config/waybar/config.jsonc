@@ -120,7 +120,7 @@
     "format": "{}°",
     "tooltip": true,
     "interval": 3600,
-    "exec": "wttrbar --location Prague",
+    "exec": "wttrbar --location Prague --nerd",
     "return-type": "json"
 },
     "sway/mode": {
@@ -136,7 +136,6 @@
     "hyprland/language": {
 	"format": "{short}"
 	//"format-en": "AMERICA, HELL YEAH!"
-	//"format-tr": "As bayrakları"
 	//"keyboard-name": "at-translated-set-2-keyboard"
 },
     "mpd": {
@@ -173,8 +172,9 @@
         }
     },
     "tray": {
-        // "icon-size": 21,
-        "spacing": 10
+        "icon-size": 21,
+        "spacing": 10,
+        "show-passive-items": true
     },
     "clock": {
          "timezone": "Europe/Prague",
@@ -188,8 +188,8 @@
 		"on-scroll"     : 1,
 		"on-click-right": "mode",
 		"format": {
-			"months":     "<span color='#fbf1c7'><b>{}</b></span>",
-			"days":       "<span color='#fbf1c7'><b>{}</b></span>",
+			"months":     "<span color='#EBDBB2'><b>{}</b></span>",
+			"days":       "<span color='#EBDBB2'><b>{}</b></span>",
 			// "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
 			"weekdays":   "<span color='#fabd2f'><b>{}</b></span>",
 			"today":      "<span color='#fabd2f'><b><u>{}</u></b></span>"
@@ -210,7 +210,7 @@
         "critical-threshold": 80,
         // "format-critical": "{temperatureC}°C {icon}",
         "format": "{temperatureC}°C {icon}",
-        "format-icons": ["", "", ""]
+        "format-icons": ["", "", "", "", ""]
     },
     "backlight": {
         // "device": "acpi_video1",
