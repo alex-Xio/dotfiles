@@ -6,13 +6,19 @@
 
 window#waybar {
     /*background-color: rgba(19, 19, 19, 0.5);*/
-    background-color: rgba(50,46,44, 1.0);
-    /*border-bottom: 3px solid rgba(100, 114, 125, 0.5);*/
+    /* background-color: rgba(50,46,44, 1.0); */
+    background-color: #272522;
     color: rgba(235,219,178,1);
     /*color: #ffffff;*/
+    box-shadow: 10 10 3 1px #151515;
     transition-property: background-color;
     transition-duration: .5s;
 }
+/* window#waybar > box { */
+/*     margin-bottom: 8px;  */
+/*     box-shadow: 0px 1px 5px 0px rgba(26,26,26,0.93); */
+/* } */
+
 
 window#waybar.hidden {
     opacity: 0.2;
@@ -153,25 +159,27 @@ button {
 }
 
 #clock {
-    background-color: rgba(235,219,178,1);
-    color: rgba(60,56,54, 1);
+    /* background-color: rgba(235,219,178,1); */
+    /* color: rgba(60,56,54, 1); */
+    color: #fbb829;
     font-weight:bolder;
 }
 
 #battery {
+    /* color: #fbb829; */
     /*background-color: #ffffff;*/
     /*color: #000000;*/
 }
 
 #battery.charging, #battery.plugged {
-    color: rgba(235,219,178,1);
+    color: #b8bb26;
     /*background-color: #26A65B;*/
 }
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
-        color: #000000;
+        /* background-color: #ffffff; */
+        color: #ebdbb2;
     }
 }
 
@@ -235,13 +243,13 @@ label:focus {
 }
 
 #pulseaudio {
-    /*background-color: #f1c40f;*/
+    /* color: #fbb829; */
     /*color: #000000;*/
 }
 
 #pulseaudio.muted {
     /*background-color: #90b1b1;*/
-    color: #b8b8b8;
+    color: #eb4d4b;
 }
 
 #wireplumber {
@@ -268,11 +276,11 @@ label:focus {
 }
 
 #temperature {
-    /*background-color: #f0932b;*/
+    /* color: #fbb829; */
 }
 
 #temperature.critical {
-    background-color: #eb4d4b;
+    color: #eb4d4b;
 }
 
 /*#tray {*/
