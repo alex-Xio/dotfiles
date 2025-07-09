@@ -10,6 +10,7 @@
 !video.sh
 !audio.sh
 !.config/
+!other_dotfiles/
 !.config/*
 
 /.config/*
@@ -24,3 +25,5 @@
 !/.config/zathura/
 !/.config/wofi-power-menu.toml
 !/.config/wofi/
+!/other_dotfiles
+!/other_dotfiles/*

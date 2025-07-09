@@ -136,7 +136,7 @@ export PATH="/usr/games/bin:$PATH"
 bindkey -v
 eval "$(zoxide init zsh)"
 
-# curl --max-time 1 --silent -s wttr.in/Moon | head -n -2 | sed 's/\x1B\[[0-9;]\{1,\}[A-Za-z]//g'
+curl --max-time 1 --silent -s wttr.in/Moon | head -n -2 | sed 's/\x1B\[[0-9;]\{1,\}[A-Za-z]//g'
 
 # Created by `pipx` on 2025-05-28 17:49:56
 export PATH="$PATH:/home/alexander/.local/bin"
