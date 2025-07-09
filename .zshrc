@@ -1,3 +1,5 @@
+fastfetch -s logo
+echo "\n"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -140,3 +142,4 @@ eval "$(zoxide init zsh)"
 
 # Created by `pipx` on 2025-05-28 17:49:56
 export PATH="$PATH:/home/alexander/.local/bin"
+

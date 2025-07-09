@@ -1,7 +1,7 @@
 window {
 margin: 0px;
 background-color: transparent;
-font-family: CMU Serif;
+font-family: Hack Nerd Font;
 font-weight:500;
 font-size:20px;
 }
@@ -9,17 +9,17 @@ font-size:20px;
 #input {
 margin: 5px;
 border: none;
-color: #322e2c;
+color: #000000;
 border-radius:0;
-background-color: #ebdbb2;
+background-color: #f97400;
 font-weight: 500;
 }
 
-#input > *{
-    color: #322e2c;
+#input *{
+    color: #000000;
 }
 #input::before{
-    color: #322e2c;
+    color: #000000;
 }
 
 #input:focus {
@@ -40,8 +40,8 @@ background-color: transparent;
 #outer-box {
 margin: 5px;
 border: none;
-background-color: #322e2c;
-border: 2px solid #fbf1c7;
+background-color: #000000;
+border: 2px solid #f97400;
 border-radius:0;
 /*background-color: #282828;*/
 }
@@ -54,23 +54,23 @@ border: none;
 #text {
 margin: 5px;
 border: none;
-color: #ebdbb2;
+color: #f97400;
 }
 
 #entry{
 border-radius:0;
-color: #ebdbb2;
-background-color:#322e2c;
+color: #f97400;
+background-color:#000000;
 }
 
 #entry:selected {
-background-color: #ebdbb2;
-color:#322e2c;
+background-color: #f97400;
+color:#000000;
 }
 #entry:selected *{
-background-color: #ebdbb2;
-color:#322e2c;
+background-color: #f97400;
+color:#000000;
 }
 #entry:selected #text{
-color:#322e2c;
+color:#000000;
 }

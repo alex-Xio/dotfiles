@@ -6,13 +6,15 @@ bold_italic_font 								auto
 font_size									15.0
 
 #inactive_text_alpha 						1.0
-background_opacity 0.60
-window_padding_width 10
+# background_opacity 0.87
+background_opacity 1.00
+window_padding_width 0
+confirm_os_window_close 2
 
 
 
 # BEGIN_KITTY_THEME
-# Hachiko
-include current-theme.conf
+# Gruvbox Dark Hard
+include srcery_kitty.conf
 # END_KITTY_THEME
 

@@ -7,8 +7,8 @@
 window#waybar {
     /*background-color: rgba(19, 19, 19, 0.5);*/
     /* background-color: rgba(50,46,44, 1.0); */
-    background-color: #272522;
-    color: rgba(235,219,178,1);
+    background-color: #000000;
+    color: #f79400;
     /*color: #ffffff;*/
     box-shadow: 10 10 3 1px #151515;
     transition-property: background-color;
@@ -67,10 +67,10 @@ button {
 #workspaces button {
     padding: 0 12px 0 9px;
     /* background-color: rgba(49,49,49,1); */
-    color: rgba(235,219,178,1);
+    color: #f79400;
     /*color: #b8b8b8;*/
     background-color: rgba(38,38,38,1);
-    border: 2px solid rgba(235,219,178,1);
+    border: 2px solid #f79400;
     /* border-radius:10px; */
     margin: 0 3px;
 }
@@ -92,11 +92,11 @@ button {
     background-color: #eb4d4b;
 }
 #workspaces button.active {
-    background-color: rgba(235,219,178,1);
-    border-color: rgba(235,219,178,1);
+    background-color: #f79400;
+    border-color: #f79400;
     color: rgba(60,56,54, 1);
-    /*color: rgba(235,219,178,1);*/
-    /*border-color:rgba(235,219,178,1);*/
+    /*color: #f79400;*/
+    /*border-color:#f79400;*/
     /*border-bottom: 2px solid red;*/
 }
 
@@ -125,7 +125,7 @@ button {
 #power-profiles-daemon,
 #mpd {
     padding: 0 10px;
-    color: rgba(235,219,178,1);
+    color: #f79400;
     /*color: #ffffff;*/
 }
 
@@ -159,9 +159,10 @@ button {
 }
 
 #clock {
-    /* background-color: rgba(235,219,178,1); */
+    /* background-color: #f79400; */
     /* color: rgba(60,56,54, 1); */
-    color: #fbb829;
+    /* color: #fbb829; */
+    color: #ffbd54;
     font-weight:bolder;
 }
 
@@ -172,7 +173,7 @@ button {
 }
 
 #battery.charging, #battery.plugged {
-    color: #b8bb26;
+    color: #ffbd54;
     /*background-color: #26A65B;*/
 }
 
