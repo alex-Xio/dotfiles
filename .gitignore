@@ -7,24 +7,24 @@
 !.gitignore
 !.zshrc
 !.bashrc
-!.p10k.zsh
+# !.p10k.zsh
 !video.sh
 !audio.sh
-!.config/
-!other_dotfiles/
-!.config/*
+# !.config/
+!themes/
+# !.config/*
 
 /.config/*
 
 !/Pictures/Wallpapers/
-!/.config/hypr/
-!/.config/hypr/*
-!/.config/kitty/
-!/.config/nvim/
-!/.config/swayosd/
-!/.config/waybar/
-!/.config/zathura/
-!/.config/wofi-power-menu.toml
-!/.config/wofi/
-!/other_dotfiles
-!/other_dotfiles/*
+# !/.config/hypr/
+# !/.config/hypr/*
+# !/.config/kitty/
+# !/.config/nvim/
+# !/.config/swayosd/
+# !/.config/waybar/
+# !/.config/zathura/
+# !/.config/wofi-power-menu.toml
+# !/.config/wofi/
+!/themes
+!/themes/*
